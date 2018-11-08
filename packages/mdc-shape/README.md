@@ -41,13 +41,13 @@ npm install @material/shape
 
 ### Sass Variables
 
-Components are categorized as small, medium and large in shape system. Overriding below sass variables applies shape (rounded) to respective categories. For example, overriding `$mdc-shape-medium-radius` variable would apply shape to all components that belong to medium category.
+Components are categorized as small, medium and large in shape system. Overriding below sass variables applies shape (rounded) to respective categories. For example, overriding `$mdc-shape-medium-surface-radius` variable would apply shape to all components that belong to medium category.
 
 Variable | Description
 --- | ---
-`$mdc-shape-small-component-radius` | Rounded shape radius size for small components. Default value `4px`.
-`$mdc-shape-medium-component-radius` | Rounded shape radius size for medium components. Default value `4px`.
-`$mdc-shape-large-component-radius` | Rounded shape radius size for large components. Default value `0`.
+`$mdc-shape-small-surface-radius` | Rounded shape radius size for small components. Default value `4px`.
+`$mdc-shape-medium-surface-radius` | Rounded shape radius size for medium components. Default value `4px`.
+`$mdc-shape-large-surface-radius` | Rounded shape radius size for large components. Default value `0`.
 
 Please refer [Material Design guidelines: Shape](https://material.io/go/design-shape) to learn about how components are categorized.
 
